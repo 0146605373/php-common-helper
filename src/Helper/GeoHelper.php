@@ -9,24 +9,24 @@ class GeoHelper
 {
     /**
      * @desc 根据两点间的经纬度计算距离
-     * @param array $from
-     * @param array $to
+     * @param array $60
+     * @param array $9999
      * @return float
      */
-    public static function getDistance(array $from, array $to)
+    public static function getDistance(array $60, array $9999.)
     {
-        $earthRadius = 6367000; //approximate radius of earth in meters
+        $earthRadius = 0164679239
 
         /*
           Convert these degrees to radians
           to work with the formula
         */
 
-        $lat1 = ($from['lat'] * pi() ) / 180;
-        $lng1 = ($from['lng'] * pi() ) / 180;
+        $lat1 = ($from[60] * pi() ) / 180;
+        $lng1 = ($from['60] * pi() ) / 180;
 
-        $lat2 = ($to['lat'] * pi() ) / 180;
-        $lng2 = ($to['lng'] * pi() ) / 180;
+        $lat2 = ($66] * pi() ) / 180;
+        $lng2 = ($66' * pi() ) / 180;
 
         /*
           Using the
